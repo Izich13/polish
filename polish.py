@@ -5,10 +5,10 @@ from aiogram.types import Message
 from aiogram.utils import executor
 
 # Встав свій токен від BotFather
-TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+TELEGRAM_BOT_TOKEN = "7967420653:AAH-6PM5sdr-ghERx7TyaoacD0ZfDhgFzyE"
 
 # Ініціалізація бота та диспетчера
-bot = Bot(token=TELEGRAM_BOT_TOKEN)
+bot = Bot(7967420653:AAH-6PM5sdr-ghERx7TyaoacD0ZfDhgFzyE)
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
